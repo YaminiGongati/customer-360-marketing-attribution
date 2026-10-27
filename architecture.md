@@ -1,7 +1,7 @@
 # Customer 360 & Marketing Attribution — Architecture
 
 ## Data Flow
-
+'''mermaid
 flowchart TD
     A[Customer Profiles] --> D[Google BigQuery]
     B[Orders Data] --> D
@@ -16,6 +16,7 @@ flowchart TD
     H --> K
     I --> K
     J --> K
+    '''
 ## Components
 
 - Source data: Synthetic customer profiles, orders, advertising campaigns, and marketing touchpoints.
